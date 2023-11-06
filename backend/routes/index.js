@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const controller = require("../app/providers/controllerProvider");
 const passport = require("passport");
+const app = express();
 
 //auth routes
 router.post("/register", (req, res) => {
